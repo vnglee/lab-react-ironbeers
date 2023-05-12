@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  max-width: 710px;
+  margin: auto;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  height: 15vh;
+}
+
+.AddBeerPage label {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+ 
+.AddBeerPage input {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+}
+ 
+.AddBeerPage input[type="number"] {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+  text-align: center;
+}
+ 
+.AddBeerPage button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+  
+
